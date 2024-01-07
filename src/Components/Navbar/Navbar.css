@@ -1,0 +1,28 @@
+.n-name{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left:2rem ;
+}
+.navbar{
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)!important;
+  box-shadow: 1px 1px 5px 4px rgb(168, 162, 162) ;
+
+}
+#n-links{
+  margin-left:40% ;
+
+}
+.link-holder{
+  font-size: 1.2rem;
+  font-weight: 700;
+ 
+}
+.N-link{
+ margin-left: 2rem;
+}
+.N-link:hover{
+ color: #fff !important; ;
+}
+
+ 
+
