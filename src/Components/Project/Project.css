@@ -1,0 +1,13 @@
+.label-font{
+    font-size: 16px;
+}
+.container{
+    background: linear-gradient();
+}
+.card{
+    box-shadow: 2px 2px 2px 3px rgb(177, 175, 175);
+}
+.card:hover{
+    background:#a7bfd4 !important;
+    box-shadow: 2px 2px 2px 3px #3d72a0;
+}

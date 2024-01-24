@@ -1,12 +1,7 @@
 import React from "react";
 import "./Footer.css";
-
-import Wave from "../../img/wave.png";
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import Linkdin from "@iconscout/react-unicons/icons/uil-linkedin";
-
-
-
 
 const Footer = () => {
     const githubfun=()=>{
@@ -23,19 +18,17 @@ const Footer = () => {
     }
     return (
         <div className="footer">
-            <img src={Wave} alt="" style={{ width: "100%", height:"270px" }} />
+           
             <div className="f-content">
-                <span>vaishalikamble4799@gmail.com</span>
-                <div className="f-icons">
-                    {/* <a href="https://github.com/vaishalikamble47" target="_blank">
-                        <Linkdin color="white" size={"3rem"} />
-                    </a> */}
+                <span className="mt-3 text-white">vaishalikamble4799@gmail.com</span>
+                <div className="f-icons mb-2">
+                   
                     <span style={{cursor:"pointer"}} onClick={githubfun}>
-                    <Github color="white" size={"3rem"} />
+                    <Github color="white" size={"2rem"} />
                     </span>
                     <span style={{cursor:"pointer"}} onClick={linkdin}>
                     <Linkdin
-                     color="white" size={"3rem"} />
+                     color="white" size={"2rem"} />
                     </span>
 
                 </div>

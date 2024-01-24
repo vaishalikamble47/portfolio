@@ -7,12 +7,11 @@ const About = () => {
             <div className="about ">
 
                 <p className="a-para">
-                    Hi,<br/>
-                    &nbsp; &nbsp; &nbsp; I'm vaishali with title React js developer || Front-End developer.
-                    I have complited my graduation from Dr.Babasaheb Ambedkar Marathwada Univercity
-                    in Bsc. I have technical knowledge of coding.Started learning Html,Css,Bootstrap, Javascript & React by self practicing with the help of youtube and google.Also made some project using this technologies.<br/>
-                    I am eger to contribute my enthusiasm and thecnhical skills as web developer and am confident that my strong work ethic,commitment to learning and passion for web development will make me a valuable asset
-                    Now i am looking forword get hired by you because to inhance my knowledge working with experts. <br />
+                    &nbsp; &nbsp; &nbsp; Enthusiastic and dedicated React.Js Web Developer with a passion
+                    for crafting engaging and user centric Web applications. A recent graduate in Solid faundation in web Development technologies, including ReactJS, React Router,Redux and Redux toolkit,Javascript,CSS3,Bootstrap,SASS and HTML5.Eager to contribute to innovative projects, learn, and grow within a collaborative development environment.<br/>
+                    I'm actively seeking opportunities to kick-start my career as React.Js Web Developer. Open to collaboretions, and connecting with fellow developers.Let's build something amazing together!
+                     <br />
+
                     <span>Thank you !</span>
                 </p>
             </div>

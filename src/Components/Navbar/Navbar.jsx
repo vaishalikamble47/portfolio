@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import  namelogo from "../../img/namelogo.jpg"
 import "./Navbar.css"
 const Navbar = () => {
   const [state, setState] = useState({
@@ -17,11 +18,11 @@ const Navbar = () => {
     }));
   };
 
-  
+
   const show = state.menu ? "show" : "";
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light "  >
+    <nav className="navbar navbar-expand-lg navbar-light">
       <button
         className="navbar-toggler"
         type="button"
@@ -32,22 +33,17 @@ const Navbar = () => {
       </button>
 
       <Link className="navbar-brand n-name" to="/">
-     <marquee> Vaishali</marquee>
+        <span><img src={namelogo} alt="" /></span>
       </Link>
 
       <div className={`collapse navbar-collapse navbarLink ${show}`} id="n-links">
         <div className="navbar-nav link-holder">
-          <Link
-            className="nav-item nav-link N-link"
-            to="/"
-          >
-            Home
-          </Link>
+          
           <Link
             className="nav-item nav-link N-link"
             to="/skill"
           >
-            Skill
+            Skills
           </Link>
           <Link
             className="nav-item nav-link N-link"
@@ -61,12 +57,12 @@ const Navbar = () => {
           >
             Project
           </Link>
-          <Link
+          {/* <Link
             className="nav-item nav-link N-link"
             to="/contact"
           >
-        Contact
-          </Link>
+            Contact
+          </Link> */}
         </div>
       </div>
     </nav>
