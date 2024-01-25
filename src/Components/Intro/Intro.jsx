@@ -11,8 +11,7 @@ const Intro = () => {
                         <span >Hey! I Am</span>
                         <span> Vaishali Kamble </span>
                         <span>
-                            Frontend Developer as fresher in web
-                            development, producting the Quality work
+                           Entry level frontend developer specialized in ReactJs ecosystem
                         </span>
                     </div>
                 </div>
